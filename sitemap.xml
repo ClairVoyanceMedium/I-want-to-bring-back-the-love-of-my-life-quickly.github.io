@@ -2,16 +2,25 @@
 <!--
   Ultra-Optimized Sitemap for Unrivalled SEO Dominance in the UK (2025)
   Site: https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/
-  This sitemap.xml is meticulously crafted to ensure maximum indexing efficiency,
-  rapid updates, and enhanced visibility across traditional search engines, voice assistants,
-  and emerging AI crawlers – all with a focus on the UK market.
+  Last Updated: 2025-02-24
+
+  This sitemap.xml has been meticulously engineered to maximize indexing efficiency,
+  ensure rapid update detection, and secure top-tier visibility across traditional search engines,
+  voice assistants, and emerging AI crawlers – all precisely tuned for the competitive UK market.
+
+  Best Practices Incorporated:
+    • All URLs are absolute and include hreflang annotations for UK English (en-GB) to boost regional targeting.
+    • <lastmod> dates reflect the most recent update, ensuring search engines always have the freshest information.
+    • <changefreq> and <priority> values are carefully calibrated to guide crawlers on content importance and update frequency.
+    • Rich metadata for images and videos (including emerging formats like AVIF and AV1) supports enhanced rich results.
+    • Separate entries for mobile-optimized content ensure a dominant mobile-first indexing strategy.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
-  <!-- Home Page: Primary entry point with highest priority and daily updates -->
+  <!-- Home Page: Highest priority with daily updates -->
   <url>
     <loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/</loc>
     <lastmod>2025-02-24</lastmod>
@@ -20,7 +29,7 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/"/>
   </url>
 
-  <!-- Secondary Page: High-quality content with regular weekly updates -->
+  <!-- Primary Content Page: Regularly updated and of high importance -->
   <url>
     <loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/page1.html</loc>
     <lastmod>2025-02-24</lastmod>
@@ -29,7 +38,7 @@
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/page1.html"/>
   </url>
 
-  <!-- Gallery Page: Showcases high-resolution images, including emerging AVIF format -->
+  <!-- Gallery Page: Optimized for visual impact with emerging AVIF images -->
   <url>
     <loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/gallery.html</loc>
     <lastmod>2025-02-24</lastmod>
@@ -37,12 +46,13 @@
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/images/photo1.avif</image:loc>
-      <image:caption>Exemple d'image en format AVIF pour un impact visuel optimal</image:caption>
+      <image:caption>High-resolution AVIF image optimized for UK markets</image:caption>
+      <image:title>Optimized AVIF Image</image:title>
     </image:image>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/gallery.html"/>
   </url>
 
-  <!-- Video Page: Enhanced video entry for rich media results -->
+  <!-- Video Page: Rich media optimized for enhanced rich snippets -->
   <url>
     <loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/video.html</loc>
     <lastmod>2025-02-24</lastmod>
@@ -50,23 +60,32 @@
     <priority>0.9</priority>
     <video:video>
       <video:thumbnail_loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/videos/thumb1.jpg</video:thumbnail_loc>
-      <video:title>Exemple de Titre Vidéo</video:title>
-      <video:description>Description détaillée de la vidéo pour améliorer la visibilité dans les résultats enrichis.</video:description>
+      <video:title>Ultra-Optimized Video Title for UK SEO</video:title>
+      <video:description>This video is meticulously optimized to deliver maximum visibility and engagement in the competitive UK market.</video:description>
       <video:content_loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/videos/video1.mp4</video:content_loc>
       <video:duration>120</video:duration>
       <video:publication_date>2025-02-24T12:00:00+00:00</video:publication_date>
+      <video:tag>SEO, UK, Optimized Video</video:tag>
     </video:video>
     <xhtml:link rel="alternate" hreflang="en-GB" href="https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/video.html"/>
   </url>
 
-  <!-- Additional URL entries can be added below to cover the full content spectrum of the site -->
-  <!--
-    For each new page, ensure:
-      - The <loc> reflects the absolute URL.
-      - <lastmod> is updated to the most recent modification date.
-      - <changefreq> is set based on content update frequency.
-      - <priority> is assigned relative to the importance of the page.
-      - <xhtml:link> tags specify hreflang for UK English (en-GB) to boost regional SEO.
-  -->
+  <!-- Mobile-Optimized Page: Prioritized for mobile-first indexing -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/mobile.html</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/mobile.html"/>
+  </url>
 
+  <!-- Additional URL entries can be added below to cover the complete content spectrum of the site.
+       For each page, ensure:
+         • <loc> uses the absolute URL.
+         • <lastmod> reflects the latest update.
+         • <changefreq> is set according to the content's update frequency.
+         • <priority> is proportionally assigned based on page importance.
+         • <xhtml:link> includes hreflang="en-GB" for UK-specific targeting.
+  -->
+  
 </urlset>
