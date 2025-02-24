@@ -1,42 +1,81 @@
-# Indique aux robots que toutes les pages peuvent être explorées, sauf restrictions spécifiées
+# Optimized robots.txt for top SEO ranking in England
+# Site: https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/
+# Designed to dominate UK search rankings in 2025
+# Last updated: 2025-02-24 (aligned with current date)
+
+# Default access for all user-agents
 User-agent: *
-Disallow: /admin/
-Disallow: /tmp/
-Disallow: /private/
+Allow: /
+Disallow: /private/         # Block private directories
+Disallow: /tmp/             # Block temporary files
+Disallow: /*?*              # Prevent indexing of URL parameters (e.g., ?utm_source) to avoid duplicate content
+Disallow: /404/             # Block error pages
+Disallow: /maintenance/     # Block maintenance pages if applicable
 
-# Bloquer des URL avec paramètres inutiles pour l'indexation
-Disallow: /*?debug=true
-Disallow: /*?preview=true
+# Explicitly allow key content types for UK search visibility
+Allow: /*.html$             # Ensure all HTML pages are indexed
+Allow: /*.jpg$              # Allow image indexing (key for visual search)
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.mp4$              # Allow video indexing (important for rich snippets)
+Allow: /*.webm$
 
-# Permettre les fichiers nécessaires au bon affichage et fonctionnement
-Allow: /css/
-Allow: /js/
-Allow: /images/
-
-# Référencement des ressources multimédias
-Allow: *.png
-Allow: *.jpg
-Allow: *.webp
-Allow: *.css
-Allow: *.js
-
-# Fournir le chemin du fichier sitemap pour une meilleure indexation
-Sitemap: https://www.clairvoyancemedium.com/sitemap.xml
-
-# Autorisation pour les robots Google et Bing pour maximiser les campagnes publicitaires
+# Optimisation for major UK search engines and voice assistants
 User-agent: Googlebot
 Allow: /
-User-agent: AdsBot-Google
+Crawl-delay: 2              # Fast crawl for Google (dominant in UK)
+Host: https://clairvoyancemedium.github.io  # Preferred host for GitHub Pages
+
+User-agent: Googlebot-Mobile
 Allow: /
+Crawl-delay: 2              # Mobile-first indexing is critical in 2025
+
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 5              # Slightly slower for images to prioritise text content
+
+User-agent: Googlebot-Video
+Allow: /
+Crawl-delay: 5              # Video content for rich results
+
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 3              # Bing has strong UK presence; prioritise slightly less than Google
 
-# Bloquer les robots nuisibles ou non désirés
-User-agent: BadBot
-Disallow: /
-User-agent: EvilScraper
+User-agent: Applebot
+Allow: /
+Crawl-delay: 5              # Siri integration for voice search (growing in UK)
+
+User-agent: Amazonbot
+Allow: /
+Crawl-delay: 5              # Alexa compatibility (UK market relevance)
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 10             # Privacy-focused engine, less critical but still relevant
+
+# Block unwanted bots to reduce server load and protect data
+User-agent: AhrefsBot
 Disallow: /
 
-# Empêcher l'exploration des fichiers sensibles
-Disallow: /config/
-Disallow: /backup/
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /                 # Less relevant for UK market
+
+User-agent: Baidubot
+Disallow: /                 # Minimal UK presence
+
+User-agent: Sogou
+Disallow: /
+
+# Sitemap for comprehensive indexing
+Sitemap: https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/sitemap.xml
+Sitemap: https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/sitemap-images.xml  # Separate image sitemap for visual SEO
+Sitemap: https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/sitemap-video.xml   # Video sitemap for rich media
