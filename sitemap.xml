@@ -1,50 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Homepage -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/</loc>
-        <lastmod>2025-01-21</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
+<!--
+  Ultra-Optimized Sitemap for Unrivalled SEO Dominance in the UK (2025)
+  Site: https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/
+  This sitemap.xml is meticulously crafted to ensure maximum indexing efficiency,
+  rapid updates, and enhanced visibility across traditional search engines, voice assistants,
+  and emerging AI crawlers – all with a focus on the UK market.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
-    <!-- Pricing Page -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/pricing</loc>
-        <lastmod>2025-01-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+  <!-- Home Page: Primary entry point with highest priority and daily updates -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/"/>
+  </url>
 
-    <!-- FAQ Page -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/faq</loc>
-        <lastmod>2025-01-21</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
+  <!-- Secondary Page: High-quality content with regular weekly updates -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/page1.html</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/page1.html"/>
+  </url>
 
-    <!-- Blog Section -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/blog</loc>
-        <lastmod>2025-01-21</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
+  <!-- Gallery Page: Showcases high-resolution images, including emerging AVIF format -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/gallery.html</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/images/photo1.avif</image:loc>
+      <image:caption>Exemple d'image en format AVIF pour un impact visuel optimal</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/gallery.html"/>
+  </url>
 
-    <!-- Individual Blog Post Example -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/blog/article1</loc>
-        <lastmod>2025-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
+  <!-- Video Page: Enhanced video entry for rich media results -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/video.html</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <video:video>
+      <video:thumbnail_loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/videos/thumb1.jpg</video:thumbnail_loc>
+      <video:title>Exemple de Titre Vidéo</video:title>
+      <video:description>Description détaillée de la vidéo pour améliorer la visibilité dans les résultats enrichis.</video:description>
+      <video:content_loc>https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/videos/video1.mp4</video:content_loc>
+      <video:duration>120</video:duration>
+      <video:publication_date>2025-02-24T12:00:00+00:00</video:publication_date>
+    </video:video>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://clairvoyancemedium.github.io/I-want-to-bring-back-the-love-of-my-life-quickly.github.io/video.html"/>
+  </url>
 
-    <!-- Contact Page -->
-    <url>
-        <loc>https://clairvoyancemedium.github.io/CN-fast-and-reliable-email-psychic-reading.github.io/contact</loc>
-        <lastmod>2025-01-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+  <!-- Additional URL entries can be added below to cover the full content spectrum of the site -->
+  <!--
+    For each new page, ensure:
+      - The <loc> reflects the absolute URL.
+      - <lastmod> is updated to the most recent modification date.
+      - <changefreq> is set based on content update frequency.
+      - <priority> is assigned relative to the importance of the page.
+      - <xhtml:link> tags specify hreflang for UK English (en-GB) to boost regional SEO.
+  -->
+
 </urlset>
